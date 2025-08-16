@@ -7,6 +7,9 @@ from src.chart import chart_creation
 from src.report import date_report, sales_table
 
 def main():
+    """
+    the main fonction
+    """
     if len(sys.argv)  < 2:
         print("Respect the syntaxe : python main.py csv_file")
         sys.exit(1)
