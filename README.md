@@ -7,17 +7,20 @@ This project generates a sales report in PDF format with charts based on CSV dat
 
 generateurpdf/
 │
-├─ example/      # Contains data files (CSV)
-│   ├─ first.csv 
-│   ├─ second.csv
-│   └─ third.csv             
-├─ src/               
-│   ├─ chart.py  # Create the bar chart 
-│   ├─ pdf_class.py  # Creates the PDF
-|   └─ report.py     # Adds the sales tables and the date  
-├─ main.py       
-├─ README.md          
-└─ requirements.txt    # Required Python libraries
+├── example/           # CSV data files
+│   ├── first.csv
+│   ├── second.csv
+│   └── third.csv
+│
+├── src/
+│   ├── chart.py       # Creates the bar chart
+│   ├── pdf_class.py   # Creates the PDF
+│   └── report.py      # Adds the sales table and report date
+│
+├── main.py            # Main script to run the report
+├── README.md
+└── requirements.txt   # Required Python libraries
+
 
 # 3- What I learned
 
