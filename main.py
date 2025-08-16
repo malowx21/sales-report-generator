@@ -2,9 +2,9 @@
 
 import sys
 import pandas as pd
-from utils.pdf_class import PDF
-from utils.chart import chart_creation
-from utils.report import date_report, sales_table
+from src.pdf_class import PDF
+from src.chart import chart_creation
+from src.report import date_report, sales_table
 
 def main():
     if len(sys.argv)  < 2:
